@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Privacy Policy Generator | No Sign-Up Required | ClawCraft</title>
+    <meta name="description" content="Generate a free privacy policy for your website or app in minutes. No sign-up, no email, 100% client-side. GDPR, CCPA, and CalOPPA compliant templates.">
+    <meta name="keywords" content="privacy policy generator, free privacy policy generator, generate privacy policy, privacy policy template, GDPR privacy policy, CCPA privacy policy">
+    <link rel="canonical" href="https://austinkc91.github.io/policy-generator/privacy-policy-generator.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Free Privacy Policy Generator - No Sign-Up Required">
+    <meta property="og:description" content="Generate a professional privacy policy for your website or app in minutes. 100% free, no account needed, runs entirely in your browser.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://austinkc91.github.io/policy-generator/privacy-policy-generator.html">
+    <meta property="og:site_name" content="ClawCraft Policy Generator">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Free Privacy Policy Generator - No Sign-Up Required">
+    <meta name="twitter:description" content="Generate a professional privacy policy in minutes. 100% free, no account needed.">
+
+    <!-- JSON-LD: WebApplication -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "ClawCraft Privacy Policy Generator",
+        "url": "https://austinkc91.github.io/policy-generator/",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "description": "Free privacy policy generator that runs entirely in your browser. No sign-up required. GDPR, CCPA, and CalOPPA compliant.",
+        "browserRequirements": "Requires a modern web browser",
+        "softwareVersion": "1.0",
+        "creator": {
+            "@type": "Organization",
+            "name": "ClawCraft"
+        }
+    }
+    </script>
+
+    <!-- JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "Is this privacy policy generator really free?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, our privacy policy generator is 100% free with no hidden fees, no premium tiers, and no sign-up required. Unlike competitors such as Termly or PrivacyPolicies.com, we never ask for your email or payment information."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is the generated privacy policy legally compliant?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our generator produces privacy policies that cover GDPR, CCPA, CalOPPA, and other major privacy regulations. The templates are designed to address common compliance requirements, though we recommend having a legal professional review your final policy for your specific use case."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Do you store my data when I generate a privacy policy?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "No. Our privacy policy generator runs entirely in your browser (client-side). Your information never leaves your device, and we do not store, collect, or transmit any of the data you enter into the generator."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Can I use the generated privacy policy for my mobile app?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely. Our generator supports privacy policies for websites, mobile apps, SaaS products, and e-commerce stores. You can customize the output to match your specific platform and data collection practices."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "How does this compare to paid privacy policy generators like Termly?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Unlike Termly, PrivacyPolicies.com, or FreePrivacyPolicy.com, our tool is completely free with no account creation, no email harvesting, and no upsells. It runs client-side so your data stays private. Paid generators often lock essential clauses behind premium plans — we include everything for free."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: #1e293b;
+            line-height: 1.6;
+            background: #f8fafc;
+        }
+        a { color: #2563eb; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #1e40af 100%);
+            color: #fff;
+            padding: 5rem 1.5rem 4rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 3.2rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+            line-height: 1.15;
+        }
+        .hero p {
+            font-size: 1.15rem;
+            max-width: 640px;
+            margin: 0 auto 2rem;
+            opacity: 0.9;
+        }
+        .cta-btn {
+            display: inline-block;
+            background: #3b82f6;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 600;
+            padding: 0.9rem 2.4rem;
+            border-radius: 8px;
+            transition: background 0.2s, transform 0.2s;
+        }
+        .cta-btn:hover { background: #2563eb; transform: translateY(-2px); text-decoration: none; }
+        .badges { margin-top: 1.5rem; display: flex; justify-content: center; gap: 1.2rem; flex-wrap: wrap; font-size: 0.9rem; opacity: 0.85; }
+
+        /* Container */
+        .container { max-width: 960px; margin: 0 auto; padding: 0 1.5rem; }
+
+        /* Section */
+        section { padding: 4rem 0; }
+        section h2 { font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center; }
+        section h3 { font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem; }
+
+        /* Benefits */
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .benefit-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 1.8rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        .benefit-card .icon { font-size: 1.6rem; margin-bottom: 0.5rem; }
+
+        /* Comparison */
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1.5rem;
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        .comparison-table th, .comparison-table td {
+            padding: 0.9rem 1.2rem;
+            text-align: center;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .comparison-table th { background: #0f172a; color: #fff; font-weight: 600; }
+        .comparison-table td:first-child { text-align: left; font-weight: 500; }
+        .comparison-table tr:last-child td { border-bottom: none; }
+        .check { color: #16a34a; font-weight: 700; }
+        .cross { color: #dc2626; font-weight: 700; }
+
+        /* FAQ */
+        .faq-list { max-width: 720px; margin: 2rem auto 0; }
+        .faq-item {
+            background: #fff;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            padding: 1.4rem 1.6rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+        .faq-item h3 { font-size: 1.05rem; margin-bottom: 0.5rem; color: #0f172a; }
+        .faq-item p { color: #475569; font-size: 0.95rem; }
+
+        /* CTA Banner */
+        .cta-banner {
+            background: linear-gradient(135deg, #1e40af, #3b82f6);
+            color: #fff;
+            text-align: center;
+            padding: 3rem 1.5rem;
+            border-radius: 16px;
+            margin: 2rem 0 4rem;
+        }
+        .cta-banner h2 { color: #fff; margin-bottom: 1rem; }
+        .cta-banner p { opacity: 0.9; margin-bottom: 1.5rem; }
+
+        /* Footer */
+        footer {
+            background: #0f172a;
+            color: #94a3b8;
+            padding: 3rem 1.5rem 2rem;
+            font-size: 0.9rem;
+        }
+        .footer-inner { max-width: 960px; margin: 0 auto; }
+        .footer-links { display: flex; flex-wrap: wrap; gap: 0.6rem 1.5rem; margin-bottom: 1.5rem; }
+        .footer-links a { color: #94a3b8; }
+        .footer-links a:hover { color: #e2e8f0; }
+        .footer-copy { border-top: 1px solid #1e293b; padding-top: 1rem; }
+
+        @media (max-width: 640px) {
+            .comparison-table { font-size: 0.85rem; }
+            .comparison-table th, .comparison-table td { padding: 0.6rem 0.5rem; }
+        }
+    </style>
+
+    <script data-goatcounter="https://textforge-tools.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+
+<!-- Hero -->
+<section class="hero">
+    <h1>Free Privacy Policy Generator</h1>
+    <p>Generate a professional, legally compliant privacy policy for your website or app in minutes. No sign-up, no email, no cost. Everything runs in your browser.</p>
+    <a href="index.html" class="cta-btn">Generate Your Privacy Policy</a>
+    <div class="badges">
+        <span>100% Free</span>
+        <span>No Sign-Up</span>
+        <span>GDPR Ready</span>
+        <span>CCPA Compliant</span>
+        <span>Client-Side Only</span>
+    </div>
+</section>
+
+<!-- Benefits -->
+<section>
+    <div class="container">
+        <h2>Why Use Our Privacy Policy Generator?</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="icon">&#128274;</div>
+                <h3>100% Client-Side</h3>
+                <p>Your data never leaves your browser. Unlike other generators, we don't collect, store, or transmit any information you enter.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">&#128176;</div>
+                <h3>Completely Free</h3>
+                <p>No premium tiers, no hidden fees, no "upgrade to unlock" tricks. Every feature is free, forever.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">&#9889;</div>
+                <h3>Instant Generation</h3>
+                <p>Answer a few simple questions and get a complete privacy policy in seconds. Copy as HTML or plain text.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">&#127760;</div>
+                <h3>Multi-Regulation Compliant</h3>
+                <p>Covers GDPR (EU), CCPA (California), CalOPPA, COPPA, and other major privacy frameworks out of the box.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">&#128241;</div>
+                <h3>Works for Any Platform</h3>
+                <p>Websites, mobile apps, SaaS products, e-commerce stores, blogs, and more. One tool covers all platforms.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">&#128221;</div>
+                <h3>No Account Required</h3>
+                <p>Start generating immediately. No email, no password, no verification. Just open the tool and go.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Comparison -->
+<section style="background:#f1f5f9;">
+    <div class="container">
+        <h2>How We Compare to Other Privacy Policy Generators</h2>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>ClawCraft</th>
+                    <th>Termly</th>
+                    <th>PrivacyPolicies.com</th>
+                    <th>FreePrivacyPolicy</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Truly Free</td>
+                    <td class="check">Yes</td>
+                    <td class="cross">Freemium</td>
+                    <td class="cross">Freemium</td>
+                    <td class="cross">Freemium</td>
+                </tr>
+                <tr>
+                    <td>No Sign-Up Required</td>
+                    <td class="check">Yes</td>
+                    <td class="cross">No</td>
+                    <td class="cross">No</td>
+                    <td class="cross">No</td>
+                </tr>
+                <tr>
+                    <td>No Email Harvesting</td>
+                    <td class="check">Yes</td>
+                    <td class="cross">No</td>
+                    <td class="cross">No</td>
+                    <td class="cross">No</td>
+                </tr>
+                <tr>
+                    <td>Client-Side Processing</td>
+                    <td class="check">Yes</td>
+                    <td class="cross">No</td>
+                    <td class="cross">No</td>
+                    <td class="cross">No</td>
+                </tr>
+                <tr>
+                    <td>GDPR Compliant Templates</td>
+                    <td class="check">Yes</td>
+                    <td class="check">Yes</td>
+                    <td class="check">Yes</td>
+                    <td class="check">Yes</td>
+                </tr>
+                <tr>
+                    <td>CCPA Compliant Templates</td>
+                    <td class="check">Yes</td>
+                    <td class="check">Yes</td>
+                    <td class="check">Paid</td>
+                    <td class="check">Paid</td>
+                </tr>
+                <tr>
+                    <td>No Upsells or Paywalls</td>
+                    <td class="check">Yes</td>
+                    <td class="cross">No</td>
+                    <td class="cross">No</td>
+                    <td class="cross">No</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section>
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
+            <div class="faq-item">
+                <h3>Is this privacy policy generator really free?</h3>
+                <p>Yes, our privacy policy generator is 100% free with no hidden fees, no premium tiers, and no sign-up required. Unlike competitors such as Termly or PrivacyPolicies.com, we never ask for your email or payment information.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is the generated privacy policy legally compliant?</h3>
+                <p>Our generator produces privacy policies that cover GDPR, CCPA, CalOPPA, and other major privacy regulations. The templates are designed to address common compliance requirements, though we recommend having a legal professional review your final policy for your specific use case.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Do you store my data when I generate a privacy policy?</h3>
+                <p>No. Our privacy policy generator runs entirely in your browser (client-side). Your information never leaves your device, and we do not store, collect, or transmit any of the data you enter into the generator.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Can I use the generated privacy policy for my mobile app?</h3>
+                <p>Absolutely. Our generator supports privacy policies for websites, mobile apps, SaaS products, and e-commerce stores. You can customize the output to match your specific platform and data collection practices.</p>
+            </div>
+            <div class="faq-item">
+                <h3>How does this compare to paid privacy policy generators like Termly?</h3>
+                <p>Unlike Termly, PrivacyPolicies.com, or FreePrivacyPolicy.com, our tool is completely free with no account creation, no email harvesting, and no upsells. It runs client-side so your data stays private. Paid generators often lock essential clauses behind premium plans -- we include everything for free.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Banner -->
+<section>
+    <div class="container">
+        <div class="cta-banner">
+            <h2>Ready to Generate Your Privacy Policy?</h2>
+            <p>It takes less than 2 minutes. No sign-up, no email, completely free.</p>
+            <a href="index.html" class="cta-btn" style="background:#fff;color:#1e40af;">Generate Privacy Policy Now</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-inner">
+        <div class="footer-links">
+            <strong style="color:#e2e8f0;">ClawCraft Tools:</strong>
+            <a href="index.html">Policy Generator</a>
+            <a href="terms-of-service-generator.html">Terms of Service Generator</a>
+            <a href="cookie-policy-generator.html">Cookie Policy Generator</a>
+            <a href="https://austinkc91.github.io/text-tools/">Text Tools</a>
+            <a href="https://austinkc91.github.io/pdf-tools/">PDF Tools</a>
+            <a href="https://austinkc91.github.io/image-tools/">Image Tools</a>
+            <a href="https://austinkc91.github.io/dev-tools/">Dev Tools</a>
+            <a href="https://austinkc91.github.io/qr-code-generator/">QR Code Generator</a>
+            <a href="https://austinkc91.github.io/email-signature-generator/">Email Signature Generator</a>
+            <a href="https://austinkc91.github.io/">ClawCraft Hub</a>
+        </div>
+        <div class="footer-copy">
+            &copy; 2026 ClawCraft. All rights reserved. Free tools, no tracking, no nonsense.
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>

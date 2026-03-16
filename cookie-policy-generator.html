@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Free Cookie Policy Generator | GDPR Compliant | ClawCraft</title>
+    <meta name="description" content="Generate a free GDPR-compliant cookie policy for your website in minutes. No sign-up, no email, 100% client-side. Cover all cookie consent requirements.">
+    <meta name="keywords" content="cookie policy generator, free cookie policy generator, GDPR cookie policy, cookie consent policy, EU cookie law, cookie notice generator">
+    <link rel="canonical" href="https://austinkc91.github.io/policy-generator/cookie-policy-generator.html">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Free Cookie Policy Generator - GDPR Compliant">
+    <meta property="og:description" content="Generate a professional GDPR-compliant cookie policy for your website in minutes. 100% free, no account needed, runs entirely in your browser.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://austinkc91.github.io/policy-generator/cookie-policy-generator.html">
+    <meta property="og:site_name" content="ClawCraft Policy Generator">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Free Cookie Policy Generator - GDPR Compliant">
+    <meta name="twitter:description" content="Generate a GDPR-compliant cookie policy in minutes. 100% free, no account needed.">
+
+    <!-- JSON-LD: WebApplication -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebApplication",
+        "name": "ClawCraft Cookie Policy Generator",
+        "url": "https://austinkc91.github.io/policy-generator/",
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Any",
+        "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+        },
+        "description": "Free cookie policy generator that runs entirely in your browser. No sign-up required. GDPR and ePrivacy Directive compliant.",
+        "browserRequirements": "Requires a modern web browser",
+        "softwareVersion": "1.0",
+        "creator": {
+            "@type": "Organization",
+            "name": "ClawCraft"
+        }
+    }
+    </script>
+
+    <!-- JSON-LD: FAQPage -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is a cookie policy and do I need one?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "A cookie policy is a document that discloses what cookies your website uses, why they are used, and how users can control them. Under GDPR, the ePrivacy Directive, and similar laws worldwide, any website that uses cookies (including analytics, ads, or session cookies) must inform users and obtain consent. If your site uses cookies, you need a cookie policy."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is this cookie policy generator GDPR compliant?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes. Our generator produces cookie policies that address GDPR requirements including cookie categorization, purpose disclosure, third-party cookie identification, consent mechanisms, and user rights. The generated policy covers the key elements required by the EU's ePrivacy Directive and GDPR."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Is this cookie policy generator really free?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Yes, 100% free with no hidden costs. Unlike CookieYes, Termly, or Cookiebot which charge monthly fees for cookie compliance tools, our generator is completely free. No sign-up, no email required, no premium tiers."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "What types of cookies does the generator cover?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Our generator covers all standard cookie categories: strictly necessary cookies, performance/analytics cookies, functionality cookies, and targeting/advertising cookies. You can specify which categories your site uses and identify third-party services like Google Analytics, Facebook Pixel, and more."
+                }
+            },
+            {
+                "@type": "Question",
+                "name": "Does my data stay private when using this tool?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": "Absolutely. Our cookie policy generator runs entirely in your browser (client-side). No data is sent to any server. Your website details and cookie information never leave your device, making this the most privacy-respecting cookie policy generator available."
+                }
+            }
+        ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            color: #1e293b;
+            line-height: 1.6;
+            background: #f8fafc;
+        }
+        a { color: #2563eb; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .hero {
+            background: linear-gradient(135deg, #0f172a 0%, #1e3a5f 50%, #1e40af 100%);
+            color: #fff;
+            padding: 5rem 1.5rem 4rem;
+            text-align: center;
+        }
+        .hero h1 {
+            font-size: clamp(2rem, 5vw, 3.2rem);
+            font-weight: 800;
+            margin-bottom: 1rem;
+            line-height: 1.15;
+        }
+        .hero p {
+            font-size: 1.15rem;
+            max-width: 640px;
+            margin: 0 auto 2rem;
+            opacity: 0.9;
+        }
+        .cta-btn {
+            display: inline-block;
+            background: #3b82f6;
+            color: #fff;
+            font-size: 1.1rem;
+            font-weight: 600;
+            padding: 0.9rem 2.4rem;
+            border-radius: 8px;
+            transition: background 0.2s, transform 0.2s;
+        }
+        .cta-btn:hover { background: #2563eb; transform: translateY(-2px); text-decoration: none; }
+        .badges { margin-top: 1.5rem; display: flex; justify-content: center; gap: 1.2rem; flex-wrap: wrap; font-size: 0.9rem; opacity: 0.85; }
+
+        .container { max-width: 960px; margin: 0 auto; padding: 0 1.5rem; }
+
+        section { padding: 4rem 0; }
+        section h2 { font-size: 1.8rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center; }
+        section h3 { font-size: 1.2rem; font-weight: 600; margin-bottom: 0.5rem; }
+
+        .benefits-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+        .benefit-card {
+            background: #fff;
+            border-radius: 12px;
+            padding: 1.8rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        .benefit-card .icon { font-size: 1.6rem; margin-bottom: 0.5rem; }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1.5rem;
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08);
+        }
+        .comparison-table th, .comparison-table td {
+            padding: 0.9rem 1.2rem;
+            text-align: center;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        .comparison-table th { background: #0f172a; color: #fff; font-weight: 600; }
+        .comparison-table td:first-child { text-align: left; font-weight: 500; }
+        .comparison-table tr:last-child td { border-bottom: none; }
+        .check { color: #16a34a; font-weight: 700; }
+        .cross { color: #dc2626; font-weight: 700; }
+
+        .faq-list { max-width: 720px; margin: 2rem auto 0; }
+        .faq-item {
+            background: #fff;
+            border-radius: 10px;
+            margin-bottom: 1rem;
+            padding: 1.4rem 1.6rem;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.06);
+        }
+        .faq-item h3 { font-size: 1.05rem; margin-bottom: 0.5rem; color: #0f172a; }
+        .faq-item p { color: #475569; font-size: 0.95rem; }
+
+        .cta-banner {
+            background: linear-gradient(135deg, #1e40af, #3b82f6);
+            color: #fff;
+            text-align: center;
+            padding: 3rem 1.5rem;
+            border-radius: 16px;
+            margin: 2rem 0 4rem;
+        }
+        .cta-banner h2 { color: #fff; margin-bottom: 1rem; }
+        .cta-banner p { opacity: 0.9; margin-bottom: 1.5rem; }
+
+        footer {
+            background: #0f172a;
+            color: #94a3b8;
+            padding: 3rem 1.5rem 2rem;
+            font-size: 0.9rem;
+        }
+        .footer-inner { max-width: 960px; margin: 0 auto; }
+        .footer-links { display: flex; flex-wrap: wrap; gap: 0.6rem 1.5rem; margin-bottom: 1.5rem; }
+        .footer-links a { color: #94a3b8; }
+        .footer-links a:hover { color: #e2e8f0; }
+        .footer-copy { border-top: 1px solid #1e293b; padding-top: 1rem; }
+
+        @media (max-width: 640px) {
+            .comparison-table { font-size: 0.85rem; }
+            .comparison-table th, .comparison-table td { padding: 0.6rem 0.5rem; }
+        }
+    </style>
+
+    <script data-goatcounter="https://textforge-tools.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+
+<!-- Hero -->
+<section class="hero">
+    <h1>Free Cookie Policy Generator</h1>
+    <p>Generate a GDPR-compliant cookie policy for your website in minutes. No sign-up, no email, no cost. Everything runs in your browser for complete privacy.</p>
+    <a href="index.html" class="cta-btn">Generate Your Cookie Policy</a>
+    <div class="badges">
+        <span>100% Free</span>
+        <span>No Sign-Up</span>
+        <span>GDPR Compliant</span>
+        <span>ePrivacy Ready</span>
+        <span>Client-Side Only</span>
+    </div>
+</section>
+
+<!-- Benefits -->
+<section>
+    <div class="container">
+        <h2>Why You Need a Cookie Policy</h2>
+        <div class="benefits-grid">
+            <div class="benefit-card">
+                <div class="icon">&#127466;&#127482;</div>
+                <h3>GDPR Compliance</h3>
+                <p>The EU's General Data Protection Regulation requires you to disclose cookie usage and obtain informed consent before setting non-essential cookies.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">&#128209;</div>
+                <h3>ePrivacy Directive</h3>
+                <p>Also known as the "Cookie Law," this EU directive specifically requires transparency about cookies, their purposes, and user opt-out mechanisms.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">&#127758;</div>
+                <h3>Global Requirements</h3>
+                <p>From CCPA in California to LGPD in Brazil, cookie disclosure requirements are expanding worldwide. Stay compliant everywhere.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">&#128176;</div>
+                <h3>Completely Free</h3>
+                <p>No monthly fees like CookieYes or Cookiebot. No premium tiers. Every feature included at zero cost, forever.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">&#128274;</div>
+                <h3>Client-Side Privacy</h3>
+                <p>Your website details never leave your browser. We don't collect or store anything -- the most privacy-respecting generator available.</p>
+            </div>
+            <div class="benefit-card">
+                <div class="icon">&#128203;</div>
+                <h3>All Cookie Types Covered</h3>
+                <p>Essential, analytics, functionality, and advertising cookies. Specify third-party services like Google Analytics, Facebook Pixel, and more.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Comparison -->
+<section style="background:#f1f5f9;">
+    <div class="container">
+        <h2>How We Compare to Other Cookie Policy Tools</h2>
+        <table class="comparison-table">
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>ClawCraft</th>
+                    <th>Termly</th>
+                    <th>CookieYes</th>
+                    <th>Cookiebot</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Truly Free</td>
+                    <td class="check">Yes</td>
+                    <td class="cross">Freemium</td>
+                    <td class="cross">Freemium</td>
+                    <td class="cross">Freemium</td>
+                </tr>
+                <tr>
+                    <td>No Sign-Up Required</td>
+                    <td class="check">Yes</td>
+                    <td class="cross">No</td>
+                    <td class="cross">No</td>
+                    <td class="cross">No</td>
+                </tr>
+                <tr>
+                    <td>No Monthly Fee</td>
+                    <td class="check">Yes</td>
+                    <td class="cross">$10+/mo</td>
+                    <td class="cross">$10+/mo</td>
+                    <td class="cross">$14+/mo</td>
+                </tr>
+                <tr>
+                    <td>Client-Side Processing</td>
+                    <td class="check">Yes</td>
+                    <td class="cross">No</td>
+                    <td class="cross">No</td>
+                    <td class="cross">No</td>
+                </tr>
+                <tr>
+                    <td>GDPR Compliant Output</td>
+                    <td class="check">Yes</td>
+                    <td class="check">Yes</td>
+                    <td class="check">Yes</td>
+                    <td class="check">Yes</td>
+                </tr>
+                <tr>
+                    <td>All Cookie Categories</td>
+                    <td class="check">Yes</td>
+                    <td class="check">Yes</td>
+                    <td class="cross">Limited</td>
+                    <td class="check">Yes</td>
+                </tr>
+                <tr>
+                    <td>No Upsells or Paywalls</td>
+                    <td class="check">Yes</td>
+                    <td class="cross">No</td>
+                    <td class="cross">No</td>
+                    <td class="cross">No</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- FAQ -->
+<section>
+    <div class="container">
+        <h2>Frequently Asked Questions</h2>
+        <div class="faq-list">
+            <div class="faq-item">
+                <h3>What is a cookie policy and do I need one?</h3>
+                <p>A cookie policy is a document that discloses what cookies your website uses, why they are used, and how users can control them. Under GDPR, the ePrivacy Directive, and similar laws worldwide, any website that uses cookies (including analytics, ads, or session cookies) must inform users and obtain consent. If your site uses cookies, you need a cookie policy.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is this cookie policy generator GDPR compliant?</h3>
+                <p>Yes. Our generator produces cookie policies that address GDPR requirements including cookie categorization, purpose disclosure, third-party cookie identification, consent mechanisms, and user rights. The generated policy covers the key elements required by the EU's ePrivacy Directive and GDPR.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Is this cookie policy generator really free?</h3>
+                <p>Yes, 100% free with no hidden costs. Unlike CookieYes, Termly, or Cookiebot which charge monthly fees for cookie compliance tools, our generator is completely free. No sign-up, no email required, no premium tiers.</p>
+            </div>
+            <div class="faq-item">
+                <h3>What types of cookies does the generator cover?</h3>
+                <p>Our generator covers all standard cookie categories: strictly necessary cookies, performance/analytics cookies, functionality cookies, and targeting/advertising cookies. You can specify which categories your site uses and identify third-party services like Google Analytics, Facebook Pixel, and more.</p>
+            </div>
+            <div class="faq-item">
+                <h3>Does my data stay private when using this tool?</h3>
+                <p>Absolutely. Our cookie policy generator runs entirely in your browser (client-side). No data is sent to any server. Your website details and cookie information never leave your device, making this the most privacy-respecting cookie policy generator available.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- CTA Banner -->
+<section>
+    <div class="container">
+        <div class="cta-banner">
+            <h2>Generate Your Cookie Policy Now</h2>
+            <p>GDPR compliant, completely free, and ready in minutes. No sign-up required.</p>
+            <a href="index.html" class="cta-btn" style="background:#fff;color:#1e40af;">Create Cookie Policy</a>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    <div class="footer-inner">
+        <div class="footer-links">
+            <strong style="color:#e2e8f0;">ClawCraft Tools:</strong>
+            <a href="index.html">Policy Generator</a>
+            <a href="privacy-policy-generator.html">Privacy Policy Generator</a>
+            <a href="terms-of-service-generator.html">Terms of Service Generator</a>
+            <a href="https://austinkc91.github.io/text-tools/">Text Tools</a>
+            <a href="https://austinkc91.github.io/pdf-tools/">PDF Tools</a>
+            <a href="https://austinkc91.github.io/image-tools/">Image Tools</a>
+            <a href="https://austinkc91.github.io/dev-tools/">Dev Tools</a>
+            <a href="https://austinkc91.github.io/qr-code-generator/">QR Code Generator</a>
+            <a href="https://austinkc91.github.io/email-signature-generator/">Email Signature Generator</a>
+            <a href="https://austinkc91.github.io/">ClawCraft Hub</a>
+        </div>
+        <div class="footer-copy">
+            &copy; 2026 ClawCraft. All rights reserved. Free tools, no tracking, no nonsense.
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
